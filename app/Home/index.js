@@ -16,7 +16,7 @@ const index = () => {
                         <AntDesign name="barschart" size={24} color="black" />
                     </View>
                     <View style={{flexDirection:'row', alignContent:'center', gap:5, marginTop:20}}>
-                        <Pressable onPress={() => router.push('/Home/AddEmployee')} style={{backgroundColor:'#7F7FD5', padding:10,  flex:1, borderRadius:10, alignItems:'center', justifyContent:'center'}}>
+                        <Pressable onPress={() => router.push('/Home/EmployeeList')} style={{backgroundColor:'#7F7FD5', padding:10,  flex:1, borderRadius:10, alignItems:'center', justifyContent:'center'}}>
                             <View style={{width:50, height:50,borderRadius:50, backgroundColor:'white', alignItems:'center',justifyContent:'center'}}>
                             <FontAwesome6 name="list-ol" size={24} color="black" />
                             </View>
